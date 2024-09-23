@@ -1,0 +1,362 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 5%;
+}
+
+ul {
+    list-style: none;
+}
+
+.excellent-section {
+    position: relative;
+    z-index: 1;
+}
+
+.excellent-section .container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background: rgba(239, 222, 212, 1);
+    /* z-index: 1; */
+}
+
+.excellent-section .container .content {
+    color: rgba(0, 0, 0, 1);
+    /* font-family: Atyp Text TRIAL; */
+    font-size: 17px;
+    font-weight: 500;
+    /* line-height: 36px; */
+    width: 40%;
+}
+
+.excellent-section .container .content h4 {
+    font-family: Atyp Text TRIAL;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 96px;
+}
+
+.excellent-section .container .content button {
+    font-family: Atyp Text TRIAL;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28.8px;
+    background: rgba(227, 28, 63, 1);
+    color: #fff;
+    border: 1px solid rgba(209, 54, 69, 1);
+    display: flex;
+    align-items: center;
+}
+
+.excellent-section .container .boxes {
+    width: 45%;
+}
+
+.excellent-section .container .boxes .box {
+    display: flex;
+    align-items: flex-start;
+    border: 1px solid rgba(0, 0, 0, 1);
+    padding: 44px 30px;
+    margin-bottom: 40px;
+}
+
+.excellent-section .container .boxes .box .txt {
+    margin-right: 2%;
+}
+
+.excellent-section .container .boxes .box .txt h3 {
+    font-family: Atyp Text TRIAL;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28.8px;
+    width: 60%;
+    margin-bottom: 3%;
+}
+
+.excellent-section .container .boxes .box .txt p {
+    font-family: Atyp Text TRIAL;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.excellent-section .horse {
+    position: absolute;
+    top: 44%;
+    left: 25%;
+    /* display: none; */
+}
+
+.excellent-section .down {
+    position: absolute;
+    right: 2%;
+    bottom: -3%;
+}
+
+.team-section .container h2 {
+    text-align: center;
+    font-family: Atyp Text TRIAL;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 96px;
+}
+
+.team-section .container {
+    text-align: center;
+}
+
+.team-section .container .team-members .member {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+    padding: 1%;
+}
+
+.team-section .container .team-members .member .member-info {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.team-section .container .team-members .member .member-info .member-number {
+    color: rgba(213, 213, 213, 1);
+    font-family: Atyp Text TRIAL;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 96px;
+}
+
+.team-section .container .team-members .member .member-info .member-name {
+    color: rgba(40, 39, 40, 1);
+    font-family: Atyp Text TRIAL;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 96px;
+}
+
+.team-section .container .team-members .member .member-role {
+    font-family: Atyp Text TRIAL;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 60px;
+    color: rgba(40, 39, 40, 1);
+}
+
+.team-section .container button {
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 1);
+    font-family: Atyp Text TRIAL;
+    /* font-size: 24px; */
+    font-weight: 600;
+    line-height: 28.8px;
+    border: 1px solid rgba(209, 54, 69, 1);
+    background: rgba(209, 54, 69, 1);
+    margin: 35px auto;
+    display: inline-flex;
+    outline: none;
+}
+
+.team-section .container button path {
+    color: #fff;
+}
+
+.discovery-section {
+    background: rgba(140, 203, 208, 1);
+    height: 1184px;
+    z-index: 2;
+    position: relative;
+}
+
+.discovery-section .container .content h4 {
+    font-family: Atyp Text TRIAL;
+    font-size: 52px;
+    font-weight: 500;
+    line-height: 60px;
+    color: rgba(40, 39, 40, 1);
+    width: 39%;
+}
+
+.discovery-section .container .content button {
+    display: flex;
+    align-items: center;
+    background: rgba(209, 54, 69, 1);
+    color: rgba(255, 255, 255, 1);
+    font-family: Atyp Text TRIAL;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28.8px;
+    border: 1px solid rgba(209, 54, 69, 1);
+    border-radius: 0;
+}
+
+.discovery-section .container .imgs {
+    position: relative;
+    height: 1000px;
+}
+
+.discovery-section .container .imgs .skilled {
+    font-family: Atyp Text TRIAL;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.8px;
+    width: 34%;
+    position: absolute;
+    right: 0;
+    top: -14%;
+}
+
+.discovery-section .container .imgs .people {
+    position: absolute;
+    right: 0;
+    top: 18%;
+    font-family: Atyp Text TRIAL;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 56.64px;
+    color: rgba(40, 39, 40, 1);
+    width: 37%;
+}
+
+.discovery-section .container .imgs h5 {
+    font-family: Atyp Text TRIAL;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 88.32px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    right: 0;
+    width: 17%;
+}
+
+.discovery-section .container .imgs img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    right: 40%;
+}
+.discovery-section .container .imgs .student {
+    position: absolute;
+    right: 34%;
+    top: 30%;
+    width: 200px;
+    height: 200px;
+}
+
+.brigher-section {
+    background: rgba(36, 34, 90, 1);
+}
+
+.brigher-section .container .txt {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brigher-section .container .txt h4 {
+    font-family: Atyp Text TRIAL;
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 74.88px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.brigher-section .container .txt h4 p {
+    font-family: Atyp Text TRIAL;
+    font-size: 96px;
+    font-weight: 500;
+    line-height: 112.32px;
+}
+
+.brigher-section .container .txt p {
+    font-family: Atyp Text TRIAL;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.8px;
+    color: rgba(255, 255, 255, 1);
+    width: 33%;
+}
+
+.brigher-section .container button {
+    font-family: Atyp Text TRIAL;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28.8px;
+    background: rgba(209, 54, 69, 1);
+    color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(209, 54, 69, 1);
+    border-radius: 0;
+    display: flex;
+    align-items: center;
+}
+
+.contact-section {
+    background: rgba(40, 39, 40, 1);
+}
+
+.contact-section .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-section .container ul h4 {
+    font-family: Atyp Text TRIAL;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 94px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.contact-section .container ul li a {
+    font-family: Atyp Text TRIAL;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 26px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.contact-section .container ul button {
+    background: rgba(209, 54, 69, 1);
+    color: rgba(255, 255, 255, 1);
+    padding: 27px 110px 27px 110px;
+    outline: none;
+}
+
+.contact-section .container ul p {
+    color: rgba(255, 255, 255, 1);
+    font-family: Atyp Text TRIAL;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 160px;
+}
+
+.social-section {
+    background: rgba(40, 39, 40, 1);
+}
+.social-section .container {
+    display: flex;
+    justify-content: space-between;
+    color: rgba(255, 255, 255, 1);
+    border-top: 1px solid #fff;
+}
+.social-section .container ul {
+    display: flex;
+    gap: 35px;
+}
+.social-section .container ul li a {
+    text-decoration: underline;
+    color: #fff;
+}
+.social-section .container .icon {
+    display: flex;
+    gap: 20px;
+}
